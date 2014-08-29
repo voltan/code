@@ -7,10 +7,10 @@ mysql_select_db('');
 // Set source and copy path and FTP info
 $source_path = '/usr/local/WowzaMediaServer/logs/';
 $main_path = '/home/webx/wowza/';
-$ftp_server = 'mycast.nanoservers.net';
-$ftp_user_name = 'mycast_logs_ftp';
-$ftp_user_pass = 'x0mx*N4PS%';
-$ftp_path = '/209.160.73.183/';
+$ftp_server = '';
+$ftp_user_name = '';
+$ftp_user_pass = '';
+$ftp_path = '';
 
 // Make file name
 //$file_name = 'wowzamediaserver_access.log.' . date( 'Y-m-d', strtotime('-1 days'));
